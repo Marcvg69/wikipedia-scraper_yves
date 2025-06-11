@@ -126,13 +126,13 @@ This approach ensures a clean separation between baseline functionality and perf
 
 ### Nice-to-have / Advanced Features
 
-| Feature                                                                                                    | Required Type  | Implemented |
-|------------------------------------------------------------------------------------------------------------|----------------|-------------|
+| Feature                                                                                                    | Required Type  | Implemented  |
+|------------------------------------------------------------------------------------------------------------|----------------|--------------|
 | Use `requests.Session()` instead of `requests.get()`                                                       | Optional       | ✅ Yes       |
-| Implement CSV export option                                                                                | Optional       | ❌ No        |
+| Implement CSV export option                                                                                | Optional       | ✅ Yes       |
 | Speed up scraping using multithreading (e.g. with `ThreadPoolExecutor`)                                    | Optional       | ✅ Yes       |
 | Use regex to clean text data from Wikipedia                                                                | Optional       | ✅ Yes       |
-| Organize must-have and nice-to-have code in separate Git branches                                          | Optional       | ❌ No        |
+| Organize must-have and nice-to-have code in separate Git branches (partially done, as the branching strategy was applied later in the process)           | Optional       | 🟡 Partially |
 
 ## License
 This project is for educational purposes as part of the BeCode data science curriculum.

@@ -68,7 +68,6 @@ def main():
         Color.MAGENTA
     )
 
-
 # Entry point of the script when executed directly (e.g., python main.py)
 if __name__ == "__main__":
     main()

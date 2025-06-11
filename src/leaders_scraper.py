@@ -263,8 +263,6 @@ class WikipediaScraper:
         # Print confirmation message in green
         PrintUtils.print_color(f"\n>>> JSON export completed: {filepath}", Color.GREEN)
         
-        
-
 
 
     def to_csv_file(self, filepath="leaders_data.csv"):
