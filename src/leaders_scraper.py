@@ -1,12 +1,15 @@
 # src/leaders_scraper.py
 
 import requests
-from bs4 import BeautifulSoup
+import csv
+import os
 import re
 import json
+from bs4 import BeautifulSoup
 from urllib.parse import unquote
 from utils.print_utils import PrintUtils, BgColor, Color
 from concurrent.futures import ThreadPoolExecutor
+
 
 
 
@@ -258,5 +261,39 @@ class WikipediaScraper:
             json.dump(self.leaders_data, f, ensure_ascii=False, indent=2)
 
         # Print confirmation message in green
-        PrintUtils.print_color(f"\nData saved to {filepath}", Color.GREEN)
+        PrintUtils.print_color(f"\n>>> JSON export completed: {filepath}", Color.GREEN)
+        
+        
 
+
+
+    def to_csv_file(self, filepath="leaders_data.csv"):
+        """
+        Save the leaders_data attribute to a CSV file.
+
+        Parameters:
+        - filepath (str): The file path where the CSV will be written. Default is 'leaders_data.csv'.
+        """
+        # Default output in 'outputs/' if no folder is provided
+        if not os.path.dirname(filepath):
+            filepath = os.path.join("outputs", filepath)
+
+        os.makedirs(os.path.dirname(filepath), exist_ok=True)
+
+        with open(filepath, mode="w", encoding="utf-8", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["Country", "First Name", "Last Name", "Wikipedia URL", "Summary"])
+
+            for country, leaders in self.leaders_data.items():
+                for leader in leaders:
+                    writer.writerow([
+                        country,
+                        leader.get("first_name", ""),
+                        leader.get("last_name", ""),
+                        leader.get("wikipedia_url", ""),
+                        leader.get("summary", "").replace("\n", " ").replace("\r", " ")
+                    ])
+
+        # Print confirmation message in green
+        PrintUtils.print_color(f"\n>>>> CSV export completed: {filepath}", Color.GREEN)
+        
