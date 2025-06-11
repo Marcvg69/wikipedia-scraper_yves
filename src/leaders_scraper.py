@@ -254,6 +254,10 @@ class WikipediaScraper:
         This method writes the internal `self.leaders_data` dictionary to a file in JSON format.
         The output is encoded in UTF-8 and prettified for readability.
         """
+        # Default output in 'outputs/' if no folder is provided
+        if not os.path.dirname(filepath):
+            filepath = os.path.join("outputs", filepath)
+                    
         with open(filepath, "w", encoding="utf-8") as f:
             # Serialize the dictionary to a UTF-8 encoded JSON file
             # ensure_ascii=False: keeps special characters (e.g., é, ñ, Ж, ع) intact

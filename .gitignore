@@ -68,3 +68,6 @@ Thumbs.db
 # === Data files saved or generated ===
 *.orig
 /data/
+
+# === Output files (JSON, CSV, etc.) ===
+output/
