@@ -170,10 +170,19 @@ class WikipediaScraper:
         Returns:
         - list[dict]: enriched leader dictionaries
         """
+        # A thread pool is a collection of pre-initialized threads that are kept ready 
+        # to execute tasks. Instead of creating and destroying a thread for each task 
+        # (which is costly in terms of time and system resources), a thread pool reuses 
+        # a limited number of threads to efficiently manage concurrent execution.
         if use_multithreading:
+            # Use ThreadPoolExecutor to parallelize the enrichment of leaders
+            # Each leader is passed to the enrich_leader() method in a separate thread
+            # executor.map returns an iterator over the results, which we convert into a list            
             with ThreadPoolExecutor() as executor:
                 return list(executor.map(self.enrich_leader, leaders))
         else:
+            # If multithreading is disabled, process leaders sequentially
+            # Apply enrich_leader() to each leader one by one using a list comprehension            
             return [self.enrich_leader(leader) for leader in leaders]
 
 
