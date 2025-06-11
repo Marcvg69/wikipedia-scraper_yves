@@ -59,6 +59,66 @@
       "start_mandate": "1995-05-17",
       "end_mandate": "2007-05-16",
       "summary": "Jacques Chirac(/ʒakʃiʁak/[b]Écouterⓘ), né le29 novembre 1932dans le5earrondissementdePariset mort le26 septembre 2019dans le6earrondissementdela même ville, est unhaut fonctionnaireethomme d'Étatfrançais. Il estPremier ministrede 1974 à 1976 ainsi que de 1986 à 1988, puisprésident de la Républiquedu17 mai 1995au16 mai 2007."
+    },
+    {
+      "id": "Q2124",
+      "first_name": "Valéry",
+      "last_name": "Giscard d'Estaing",
+      "birth_date": "1926-02-02",
+      "death_date": "2020-12-02",
+      "place_of_birth": "Koblenz",
+      "wikipedia_url": "https://fr.wikipedia.org/wiki/Valéry_Giscard_d'Estaing",
+      "start_mandate": "1974-05-27",
+      "end_mandate": "1981-05-21",
+      "summary": "« Giscard » et « VGE » redirigent ici. Pour les autres significations, voirGiscard (homonymie)etVGE (homonymie)."
+    },
+    {
+      "id": "Q2185",
+      "first_name": "Georges",
+      "last_name": "Pompidou",
+      "birth_date": "1911-07-05",
+      "death_date": "1974-04-02",
+      "place_of_birth": "Montboudif",
+      "wikipedia_url": "https://fr.wikipedia.org/wiki/Georges_Pompidou",
+      "start_mandate": "1969-06-20",
+      "end_mandate": "1974-04-02",
+      "summary": "Georges Pompidou(Écouterⓘ), né le5 juillet 1911àMontboudif(Cantal) et mort le2 avril 1974àParis4e, est unhaut fonctionnaireethomme d'Étatfrançais. Il estPremier ministredu14 avril 1962au10 juillet 1968etprésident de la Républiquedu20 juin 1969jusqu'à sa mort le 2 avril 1974."
+    },
+    {
+      "id": "Q5738",
+      "first_name": "Adolphe",
+      "last_name": "Thiers",
+      "birth_date": "1797-04-15",
+      "death_date": "1877-09-03",
+      "place_of_birth": "Marseille",
+      "wikipedia_url": "https://fr.wikipedia.org/wiki/Adolphe_Thiers",
+      "start_mandate": "1871-08-31",
+      "end_mandate": "1873-05-24",
+      "summary": "Cet article concerne l'homme d'État. Pour l'architecte, voirAdolphe Thiers (architecte)."
+    },
+    {
+      "id": "Q7721",
+      "first_name": "Napoléon",
+      "last_name": "Bonaparte",
+      "birth_date": "1808-04-20",
+      "death_date": "1873-01-09",
+      "place_of_birth": "Paris",
+      "wikipedia_url": "https://fr.wikipedia.org/wiki/Napoléon_III",
+      "start_mandate": "1848-12-20",
+      "end_mandate": "1852-12-02",
+      "summary": "Pour les articles homonymes, voirLouis-Napoléon Bonaparte (homonymie),Napoléon (homonymie)etBonaparte (homonymie)."
+    },
+    {
+      "id": "Q12680",
+      "first_name": "Paul",
+      "last_name": "Doumer",
+      "birth_date": "1857-03-22",
+      "death_date": "1932-05-07",
+      "place_of_birth": "Aurillac",
+      "wikipedia_url": "https://fr.wikipedia.org/wiki/Paul_Doumer",
+      "start_mandate": "1931-06-13",
+      "end_mandate": "1932-05-07",
+      "summary": "Joseph Athanase Doumer, ditPaul Doumer, né le22 mars 1857àAurillac(Cantal) et mortassassinéle7 mai 1932àParis(Seine), est unhomme d'Étatfrançais. Il estprésident de la Républiquedu13 juin 1931à sa mort."
     }
   ],
   "be": [
@@ -121,6 +181,66 @@
       "start_mandate": "1920-11-20",
       "end_mandate": "1921-12-16",
       "summary": "Henri Victor Marie Ghislain Carton de Wiart(Brussel,31 januari1869–Ukkel,6 mei1951) (ook als \"Henry\" vermeld) was eenBelgischepoliticus. Hij waspremiervan 1920 tot 1921."
+    },
+    {
+      "id": "Q14991",
+      "first_name": "Georges",
+      "last_name": "Theunis",
+      "birth_date": "1873-02-28",
+      "death_date": "1966-01-04",
+      "place_of_birth": "Montegnée",
+      "wikipedia_url": "https://nl.wikipedia.org/wiki/Georges_Theunis",
+      "start_mandate": "1934-11-20",
+      "end_mandate": "1935-03-25",
+      "summary": "Georges Emile Pierre Léonard Theunis(Montegnée,28 februari1873–Brussel,4 januari1966) was eenBelgischindustrieelenpoliticusvan deKatholieke Partij."
+    },
+    {
+      "id": "Q14992",
+      "first_name": "Aloïs",
+      "last_name": "Van de Vyvere",
+      "birth_date": "1871-06-08",
+      "death_date": "1961-10-22",
+      "place_of_birth": "Tielt",
+      "wikipedia_url": "https://nl.wikipedia.org/wiki/Aloys_Van_de_Vyvere",
+      "start_mandate": "1925-05-13",
+      "end_mandate": "1925-06-17",
+      "summary": "Aloys Jean Maria Joseph Van de Vyvere(Tielt,8 juni1871-Parijs,22 oktober1961) was eenBelgischkatholiekvolksvertegenwoordigerenminister."
+    },
+    {
+      "id": "Q14993",
+      "first_name": "Prosper",
+      "last_name": "Poullet",
+      "birth_date": "1868-03-05",
+      "death_date": "1937-12-03",
+      "place_of_birth": "Leuven",
+      "wikipedia_url": "https://nl.wikipedia.org/wiki/Prosper_Poullet",
+      "start_mandate": "1925-06-17",
+      "end_mandate": "1926-05-20",
+      "summary": "Prosper Antoine Marie Joseph burggraaf Poullet(Leuven,5 maart1868-3 december1937) was eenBelgischpoliticus."
+    },
+    {
+      "id": "Q14994",
+      "first_name": "Henri",
+      "last_name": "Jaspar",
+      "birth_date": "1870-07-28",
+      "death_date": "1939-02-15",
+      "place_of_birth": "Schaerbeek - Schaarbeek",
+      "wikipedia_url": "https://nl.wikipedia.org/wiki/Henri_Jaspar",
+      "start_mandate": "1926-05-20",
+      "end_mandate": "1931-06-06",
+      "summary": "Henri Jaspar(Schaarbeek,28 juli1870-Sint-Gillis,15 februari1939) was eenBelgischkatholiekpoliticus, die twee keer premier van België was."
+    },
+    {
+      "id": "Q14995",
+      "first_name": "Jules",
+      "last_name": "None",
+      "birth_date": "1862-12-03",
+      "death_date": "1934-07-15",
+      "place_of_birth": "Ixelles - Elsene",
+      "wikipedia_url": "https://nl.wikipedia.org/wiki/Jules_Renkin",
+      "start_mandate": "1931-06-06",
+      "end_mandate": "1932-10-22",
+      "summary": "Jules Laurent Jean Louis Renkin(Elsene,3 december1862-Brussel,15 juli1934) was eenBelgischkatholiekpoliticus."
     }
   ],
   "ma": [
@@ -233,6 +353,66 @@
       "start_mandate": "1993-01-20",
       "end_mandate": "2001-01-20",
       "summary": "William Jefferson  Clinton(néBlythe III; born August 19, 1946) is an American politician and lawyer  who was the 42ndpresident of the United Statesfrom 1993 to 2001. A member of theDemocratic Party, he previously served as theattorney general of Arkansasfrom 1977 to 1979 and as thegovernor of Arkansasfrom 1979 to 1981, and again from 1983 to 1992. Clinton, whose policies reflected a centrist \"Third Way\"political philosophy, became known as aNew Democrat."
+    },
+    {
+      "id": "Q6279",
+      "first_name": "Joe",
+      "last_name": "Biden",
+      "birth_date": "1942-11-20",
+      "death_date": null,
+      "place_of_birth": "St. Mary's Hospital",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Joe_Biden",
+      "start_mandate": "2021-01-20",
+      "end_mandate": null,
+      "summary": "Joseph Robinette Biden Jr.[a](born November 20, 1942) is an American politician who was the 46thpresident of the United Statesfrom 2021 to 2025. A member of theDemocratic Party, he served as the 47thvice presidentfrom 2009 to 2017 and representedDelawarein theU.S. Senatefrom 1973 to 2009."
+    },
+    {
+      "id": "Q8007",
+      "first_name": "Franklin",
+      "last_name": "Roosevelt",
+      "birth_date": "1882-01-30",
+      "death_date": "1945-04-12",
+      "place_of_birth": "Hyde Park",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt",
+      "start_mandate": "1933-03-04",
+      "end_mandate": "1945-04-12",
+      "summary": "Franklin Delano Roosevelt[a](January 30, 1882 – April 12, 1945), also known asFDR, was the 32ndpresident of the United States, serving from 1933 until his death in 1945. He is the longest-serving U.S. president, and the only one to have served more than two terms. Hisfirst two termswere centered on combating theGreat Depression, while histhird and fourthsaw him shift his focus to America's involvement inWorld War II."
+    },
+    {
+      "id": "Q8612",
+      "first_name": "Andrew",
+      "last_name": "Johnson",
+      "birth_date": "1808-12-29",
+      "death_date": "1875-07-31",
+      "place_of_birth": "Raleigh",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_Johnson",
+      "start_mandate": "1865-04-15",
+      "end_mandate": "1869-03-04",
+      "summary": "Andrew Johnson(December 29, 1808 – July 31, 1875) was the 17thpresident of the United States, serving from 1865 to 1869. The 16thvice president, he assumed the presidency followingthe assassinationofAbraham Lincoln. Johnson was aSouthern Democratwho ran with Lincoln on theNational Union Partyticket in the1864 presidential election, coming to office as theAmerican Civil Warconcluded. Johnson favored quick restoration of theseceded states to the Unionwithout protection for thenewly freed peoplewho were formerlyenslaved, as well aspardoning ex-Confederates. This led to conflict with theRepublican Party-dominatedU.S. Congress, culminating inhis impeachmentby theHouse of Representativesin 1868.He was acquittedin theSenateby one vote."
+    },
+    {
+      "id": "Q9582",
+      "first_name": "Gerald",
+      "last_name": "Ford",
+      "birth_date": "1913-07-14",
+      "death_date": "2006-12-26",
+      "place_of_birth": "Omaha",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gerald_Ford",
+      "start_mandate": "1974-08-09",
+      "end_mandate": "1977-01-20",
+      "summary": "Gerald Rudolph Ford Jr.(bornLeslie Lynch King Jr.; July 14, 1913 – December 26, 2006) was the 38thpresident of the United States, serving from 1974 to 1977. A member of theRepublican Party, Ford assumed the presidency after the resignation of PresidentRichard Nixon, under whom he had served as the 40thvice presidentfrom 1973 to 1974 followingSpiro Agnew's resignation. Prior to that, he served as a member of theU.S. House of Representativesfrom 1949 to 1973."
+    },
+    {
+      "id": "Q9588",
+      "first_name": "Richard",
+      "last_name": "Nixon",
+      "birth_date": "1913-01-09",
+      "death_date": "1994-04-22",
+      "place_of_birth": "Yorba Linda",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Nixon",
+      "start_mandate": "1969-01-20",
+      "end_mandate": "1974-08-09",
+      "summary": "Richard Milhous Nixon(January 9, 1913 – April 22, 1994) was the 37thpresident of the United States, serving from 1969 untilhis resignationin 1974. A member of theRepublican Party, he previously served as the 36thvice presidentunder PresidentDwight D. Eisenhowerfrom 1953 to 1961, and also as arepresentativeandsenatorfromCalifornia.His presidencysaw the reduction of U.S. involvement in theVietnam War,détentewith theSoviet UnionandChina, theApollo 11Moon landing, and the establishment of theEnvironmental Protection AgencyandOccupational Safety and Health Administration. Nixon's second term ended early when he became the only U.S. president to resign from office, as a result of theWatergate scandal."
     }
   ],
   "ru": [

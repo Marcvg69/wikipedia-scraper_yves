@@ -216,9 +216,9 @@ class WikipediaScraper:
 
             # Log conditionally if no leader was enriched
             if not leaders_data:
-                PrintUtils.print_color(f"[INFO] No leaders returned for country '{country}'", Color.YELLOW)
+                PrintUtils.print_color(f">>> No leaders returned for country '{country}'", Color.YELLOW)
             else:
-                PrintUtils.print_color(f"[INFO] Country '{country}' - {len(leaders_data)} leaders enriched.", Color.CYAN)
+                PrintUtils.print_color(f">>> Country '{country}' - {len(leaders_data)} leaders enriched.", Color.CYAN)
 
             # Store the enriched leader data in the dictionary
             leaders_per_country[country] = leaders_data
@@ -228,7 +228,7 @@ class WikipediaScraper:
         if verbose:
             for country, leaders in leaders_per_country.items():  
                 print(f"\nCountry: {country}")
-                for leader in leaders[:5]:  # Show up to 5 leaders per country
+                for leader in leaders:  
                     summary = leader.get("summary", "")
                     #print(f"- {leader.get('first_name')} {leader.get('last_name')}: {summary[:100]}...")
                     
@@ -257,7 +257,7 @@ class WikipediaScraper:
         # Default output in 'outputs/' if no folder is provided
         if not os.path.dirname(filepath):
             filepath = os.path.join("outputs", filepath)
-                    
+
         with open(filepath, "w", encoding="utf-8") as f:
             # Serialize the dictionary to a UTF-8 encoded JSON file
             # ensure_ascii=False: keeps special characters (e.g., é, ñ, Ж, ع) intact
@@ -297,5 +297,5 @@ class WikipediaScraper:
                     ])
 
         # Print confirmation message in green
-        PrintUtils.print_color(f"\n>>>> CSV export completed: {filepath}", Color.GREEN)
+        PrintUtils.print_color(f"\n>>> CSV export completed: {filepath}", Color.GREEN)
         
