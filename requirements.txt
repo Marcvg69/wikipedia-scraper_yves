@@ -1,0 +1,6 @@
+requests==2.31.0
+beautifulsoup4==4.12.2
+pandas==2.2.2
+multiprocessing-logging==0.3.0
+notebook==7.2.0
+ipykernel==6.29.4
