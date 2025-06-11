@@ -125,6 +125,10 @@ class WikipediaScraper:
                 cleaned = re.sub(r"\[[0-9]+\]", "", text)
                 return cleaned
 
+        # --- Bug: no paragraph available, but nothing is printed
+        # If no suitable paragraph was found, log a warning
+        print(f"[WARN] No suitable paragraph found for {wikipedia_url}")
+
         # Return empty string if no suitable paragraph was found
         return ""
 
@@ -207,16 +211,30 @@ class WikipediaScraper:
             # Enrich all leaders using multithreading if requested
             leaders_data = self.enrich_all_leaders(leaders_data, use_multithreading=use_multithreading)            
 
-            # Store the enriched leader data in the dictionary, keyed by country
+            # Log conditionally if no leader was enriched
+            if not leaders_data:
+                PrintUtils.print_color(f"[INFO] No leaders returned for country '{country}'", Color.YELLOW)
+            else:
+                PrintUtils.print_color(f"[INFO] Country '{country}' - {len(leaders_data)} leaders enriched.", Color.CYAN)
+
+            # Store the enriched leader data in the dictionary
             leaders_per_country[country] = leaders_data
+
 
         # If verbose is True, print a sample of the collected data for inspection
         if verbose:
-            for country, leaders in list(leaders_per_country.items())[:3]:  # Show only first 3 countries
+            for country, leaders in leaders_per_country.items():  
                 print(f"\nCountry: {country}")
                 for leader in leaders[:5]:  # Show up to 5 leaders per country
                     summary = leader.get("summary", "")
-                    print(f"- {leader.get('first_name')} {leader.get('last_name')}: {summary[:100]}...")
+                    #print(f"- {leader.get('first_name')} {leader.get('last_name')}: {summary[:100]}...")
+                    
+                    #--- Bug with unknown name
+                    first = leader.get("first_name", "")
+                    last = leader.get("last_name", "")
+                    name = (first + " " + last).strip() or "Unknown"
+                    print(f"- {name}: {summary[:150]}...")
+
 
         # Return the full dictionary of leaders grouped by country
         self.leaders_data = leaders_per_country

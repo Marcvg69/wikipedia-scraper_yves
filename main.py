@@ -20,7 +20,7 @@ def run_scraper(use_multithreading=False):
     start_time = time.time()
 
     # limit_per_country ===========================================================================
-    scraper.fetch_leaders(limit_per_country=2, verbose=True, use_multithreading=use_multithreading)
+    scraper.fetch_leaders(limit_per_country=5, verbose=True, use_multithreading=use_multithreading)
     # limit_per_country ===========================================================================
 
     scraper.to_json_file("leaders_data.json")
