@@ -17,6 +17,7 @@ def run_scraper(use_multithreading=False, output_format=OutputFormat.JSON):
     PrintUtils.print_bg_color(f"Run scraper (multithreading={use_multithreading})", bg_color)
     
     scraper = WikipediaScraper()
+
     start_time = time.time()
 
     # limit_per_country ===========================================================================
