@@ -72,3 +72,4 @@ python -m ipykernel install --user --name=.venv --display-name "Python (.venv)"
 
 # === Done ===
 print_green "Setup complete. Your virtual environment is ready!"
+# test
