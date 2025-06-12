@@ -36,7 +36,8 @@ print_error() {
 
 # === Show Python versions ===
 print_blue "Available Python versions:"
-py -0 || where python
+# py -0 || where python
+python3 --version
 
 # === Remove existing venv ===
 if [ -d ".venv" ]; then
@@ -46,7 +47,7 @@ fi
 
 # === Create new venv ===
 print_blue "Creating new virtual environment with Python 3.12.10..."
-py -3.12 -m venv .venv || print_error "Python 3.12 not found. Please install it first."
+python -3.12 -m venv .venv || print_error "Python 3.12 not found. Please install it first."
 
 # === Activate venv ===
 echo ">>> Activating virtual environment..."
